@@ -32,7 +32,7 @@ public class TaskController {
         return ResponseEntity.ok(service.pendentTask());
     }
 
-    @GetMapping("/tarefas/departamentos")
+    @GetMapping("/departamentos")
     public ResponseEntity listDepartments() {
         return ResponseEntity.ok(service.listDepartments());
     }
