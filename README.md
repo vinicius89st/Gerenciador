@@ -65,3 +65,6 @@ INSERT INTO tarefas (titulo, descricao, prazo, id_departamento, duracao, id_pess
 INSERT INTO tarefas (titulo, descricao, prazo, id_departamento, duracao, id_pessoa, finalizado) VALUES ('Reunião B', 'Reunião com cliente B para apresentação do produto', '2022-01-31', 2, 5, 2, true);
 INSERT INTO tarefas (titulo, descricao, prazo, id_departamento, duracao, id_pessoa, finalizado) VALUES ('Validar NF Fevereiro', 'Validar notas recebidas no mês de Fevereiro', '2022-03-15', 1, 14, 6, false);
 ```
+
+Abaixo segue o link do Swagger:
+https://app.swaggerhub.com/apis/VINICIUS89ST_1/gerenciador-api/1.0.0
