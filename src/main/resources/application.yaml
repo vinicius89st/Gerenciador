@@ -1,0 +1,28 @@
+server:
+  port: 8094
+spring:
+  application:
+    name: gerenciador-service
+  jpa:
+    database: POSTGRESQL
+    defer-datasource-initialization: true
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/gerenciador
+    username: postgres
+    password: 123456
+    driverClassName: org.postgresql.Driver
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka/
+#    healthcheck:
+#      enabled: true
+#    lease:
+#      duration: 5
+#  instance:
+#    appname: gerenciador-service
+#    leaseRenewalIntervalInSeconds: 1
+#    leaseExpirationDurationInSeconds: 2
+#    preferIpAddress: true
+#    instance-id:
