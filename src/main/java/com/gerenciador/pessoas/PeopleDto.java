@@ -7,8 +7,8 @@ import lombok.NoArgsConstructor;
 
 
 @AllArgsConstructor
-@Builder
 @Data
+@NoArgsConstructor
 public class PeopleDto {
     Integer id;
     String nome;
