@@ -41,11 +41,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-			<groupId>com.mediaportal</groupId>
-			<artifactId>remoteserver2</artifactId>
-			<version>1.23.2</version>
-		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
